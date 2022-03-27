@@ -3,6 +3,7 @@ name: jximportapp
 description: A Helm chart for Kubernetes
 dependencies:
 - name: pythondb
+  repository: "file://charts/pythondb"
 
 # A chart can be either an 'application' or a 'library' chart.
 #
